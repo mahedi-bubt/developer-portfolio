@@ -8,24 +8,27 @@
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 h3{
     font-size: 25px;
-    padding-bottom: 10px;
+    
 }
 p{
     text-align: justify;
     font-size: 20px;
     padding-bottom: 20px;
 }
-section{
+.flexiable-container{
     display: flex;
     margin-bottom: 150px;
 }
-/*.banner{
-    background-image: url(img/banner-4.jpg);
+.banner{
+    background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
-    width: 100%;
-}*/
+    
+}
 .name{
     padding-bottom: 15px;
 }
@@ -59,4 +62,47 @@ section{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+/*.dream-big {
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+}*/
+.experiance-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.experiance-title{
+    padding-bottom: 10px;
+    color: rgb(5, 161, 115);;
+}
+.experiance-duration{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.experiance-item{
+    width: 40%;
+    margin: 0 5%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    
+}
+#stack-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#juniar-developer{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(3, 161, 161), cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
